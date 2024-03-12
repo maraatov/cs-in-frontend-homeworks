@@ -1,1 +1,1 @@
-# cs-in-frontend-homeworks
+# домашние задания по cs
