@@ -186,3 +186,4 @@ function execute(program) {
 }
 
 console.log(execute(program))
+// Выход - Hello world!
