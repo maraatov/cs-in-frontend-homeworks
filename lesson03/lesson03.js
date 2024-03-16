@@ -6,12 +6,12 @@ function fizzbuzz() {
       const multiple_of_five = (counter % 5n) === 0n
       const multiple_of_three = (counter % 3n) === 0n
       switch (true) {
+        case multiple_of_three && multiple_of_five:
+          return 'FizzBuzz'
         case multiple_of_three:
           return 'Fizz'
         case multiple_of_five:
           return 'Buzz'
-        case multiple_of_three && multiple_of_five:
-          return 'FizzBuzz'
         default:
           return counter
       }
