@@ -17,7 +17,7 @@ class BCD {
   #calculateBitwisePositionAndShift(totalBits, currentIndex) {
     const getPosition = totalBits - currentIndex * 4;
     const moveToTheLeft = getPosition - 4;
-    return {getPosition, moveToTheLeft};
+    return { getPosition, moveToTheLeft };
   }
 
   #findNegativeArrayIndex(index) {
